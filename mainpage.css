@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background9.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-nav a {
+    color: white;
+    background: #254441;
+    display: block;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+
+#main-nav :hover {
+    background: #305753;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#main-nav li:hover .submenu>li {
+    display: block;
+    top: 0px;
+}
+
+.submenu li {
+    display: none;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.scale {
+    transition: .7s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.info {
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    display: flexbox;
+}
+
+.inft {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-left: 5px;
+}
+
+.zapis {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(3, 400px);
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.grid div {
+    border: 1px solid black;
+}
+
+.first {
+    border: 1px solid black;
+    height: 460px;
+}
+
+.second {
+    border: 1px solid black;
+    height: 460px;
+}
+
+.third {
+    border: 1px solid black;
+    height: 460px;
+}
+
+.fourth {
+    border: 1px solid black;
+    height: 460px;
+}
+
+.fifth {
+    border: 1px solid black;
+    height: 460px;
+}
+
+.sixth {
+    border: 1px solid black;
+    height: 460px;
+}
+
+@media screen and (max-width:360px) {
+    .first {
+        border: 1px solid black;
+        height: 480px;
+    }
+    .second {
+        border: 1px solid black;
+        height: 480px;
+    }
+    .third {
+        border: 1px solid black;
+        height: 480px;
+    }
+    .fourth {
+        border: 1px solid black;
+        height: 480px;
+    }
+    .fifth {
+        border: 1px solid black;
+        height: 480px;
+    }
+    .sixth {
+        border: 1px solid black;
+        height: 480px;
+    }
+}

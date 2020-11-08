@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background9.jpg);
+}
+
+.pr {
+    font-size: 28 px;
+}
+
+.inp {
+    width: 200px;
+    margin-top: 5px;
+}

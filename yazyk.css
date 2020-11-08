@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background9.jpg);
+}
+
+.ost {
+    border: 2px solid black;
+    width: 450px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ostx {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.xost {
+    margin: 5px;
+    font-size: 20px;
+}
+
+button {
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:360px) {
+    input {
+        width: 280px;
+        height: 30px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .ost {
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+    }
+}

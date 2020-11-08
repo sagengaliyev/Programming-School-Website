@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-nav a {
+    color: white;
+    background: #368372;
+    display: block;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+
+#main-nav :hover {
+    background: #305753;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#main-nav li:hover .submenu>li {
+    display: block;
+    top: 0px;
+}
+
+.submenu li {
+    display: none;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.podr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.podritem {
+    min-height: 32vh;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid white;
+}
+
+.podritem:hover {
+    border: 3px solid green;
+}
+
+.txt {
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+
+.teachitem {
+    min-height: 32vh;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    opacity: .5;
+}
+
+.teachitem:hover {
+    opacity: 1;
+    transition: .9s;
+}
+
+.footer {
+    display: grid;
+    background-color: cornflowerblue;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.foot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    margin: 5px;
+}
+
+.ost {
+    border: 2px solid #00FF00;
+    width: 600px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ostx {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    width: 570px;
+    height: 40px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.xost {
+    margin: 5px;
+}
